@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/estilos/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info mb-4">
+        <div class="container">
+          <h1 class="navbar-brand text-light">SmatTech Store</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Inicio <i class="fa-solid fa-house"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Nosotros <i class="fa-solid fa-info"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contactanos <i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Información del Producto</h2>
+          <div id="modal-product-info"></div>
+        </div>
+      </div>
+
+    <div class="container mt-6">
+        
+        <div id="product-container" class="row">
+            
+    </div>
+
+
+    
+
+    <footer class="d-flex justify-content-between align-items-center p-3 bg-info fixed-bottom">
+        <h2 class="h3">SmatTech Store</h2>
+        
+        <div class="container-icon d-flex align-items-center">
+            <div class="container-cart-icon mr-3">
+                <button id="btnComprar" class="btn btn-comprar boton-2">Comprar</button>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+    
+            <div class="container-wishlist-icon mr-3">
+                <button id="btnWishlist" class="btn btn-wishlist boton-2">Wishlist</button>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon-wishlist">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17l-6 6m0 0l6-6m-6 6V5a2 2 0 012-2h8a2 2 0 012 2v18l-8-4-8 4z"/>
+                </svg>
+                <div class="count-wishlist">
+                    <span id="contador-wishlist">0</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="/js/app.js"></script>
+    <script src="/js/app2.js"></script>
+    <script src="/js/model.js"></script>
+</body>
+</html>

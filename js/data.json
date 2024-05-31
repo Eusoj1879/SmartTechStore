@@ -1,0 +1,228 @@
+{
+    "productos": [
+  
+      {
+        "id": 1,
+        "nombre": "laptop hp pavilion",
+        "precio": 800.00,
+        "stock": 15,
+        "categoria": "electrónica",
+        "descripcion": "laptop hp pavilion 15-cs3019nr con procesador intel core i7 y 16gb de ram",
+        "marca": "hp",
+        "disponibilidad": true,
+        "imagen": "https://home.ripley.com.pe/Attachment/WOP_5/2004324244315/2004324244315-1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "smartphone samsung galaxy s21",
+        "precio": 999.99,
+        "stock": 30,
+        "categoria": "telefonía",
+        "descripcion": "samsung galaxy s21 con pantalla de 6.2 pulgadas y 128gb de almacenamiento",
+        "marca": "samsung",
+        "disponibilidad": true,
+        "imagen": "https://www.lacuracao.pe/media/catalog/product/p/s/ps37804987_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+    },
+    {
+        "id": 3,
+        "nombre": "auriculares sony wh-1000xm4",
+        "precio": 349.99,
+        "stock": 20,
+        "categoria": "audio",
+        "descripcion": "auriculares inalámbricos con cancelación de ruido sony wh-1000xm4",
+        "marca": "sony",
+        "disponibilidad": true,
+        "imagen": "https://pesonyb2c.vtexassets.com/arquivos/ids/209668-800-800?v=637324319722470000&width=800&height=800&aspect=true"
+    },
+    {
+        "id": 4,
+        "nombre": "tablet apple ipad air",
+        "precio": 599.99,
+        "stock": 25,
+        "categoria": "electrónica",
+        "descripcion": "apple ipad air con pantalla de 10.9 pulgadas y 64gb de almacenamiento",
+        "marca": "apple",
+        "disponibilidad": true,
+        "imagen": "https://promart.vteximg.com.br/arquivos/ids/7335791-1000-1000/image-0.jpg?v=638249838273570000"
+    },
+    {
+        "id": 5,
+        "nombre": "smart tv lg oled cx",
+        "precio": 1299.99,
+        "stock": 10,
+        "categoria": "electrónica",
+        "descripcion": "smart tv lg oled cx de 55 pulgadas con resolución 4k",
+        "marca": "lg",
+        "disponibilidad": true,
+        "imagen": "https://www.lg.com/content/dam/channel/wcms/uk/images/tvs/OLED48CX6LB_AEK_EEUK_UK_C/gallery/1100_1.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "consola sony playstation 5",
+        "precio": 499.99,
+        "stock": 50,
+        "categoria": "videojuegos",
+        "descripcion": "consola sony playstation 5 con disco duro de 825gb",
+        "marca": "sony",
+        "disponibilidad": true,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_970771-MLA73347645092_122023-O.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "altavoz inteligente amazon echo",
+        "precio": 99.99,
+        "stock": 40,
+        "categoria": "hogar inteligente",
+        "descripcion": "altavoz inteligente amazon echo con alexa",
+        "marca": "amazon",
+        "disponibilidad": true,
+        "imagen": "https://hiraoka.com.pe/media/catalog/product/1/2/128988_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=700&canvas=700:560"
+    },
+    {
+        "id": 8,
+        "nombre": "reloj inteligente apple watch series 6",
+        "precio": 399.99,
+        "stock": 35,
+        "categoria": "accesorios",
+        "descripcion": "reloj inteligente apple watch series 6 con gps",
+        "marca": "apple",
+        "disponibilidad": true,
+        "imagen": "https://mac-center.com.pe/cdn/shop/products/IMG-5665768_6e089cd2-1de8-434b-92bb-7d50c2ad9820.jpg?v=1660915373"
+    },
+    {
+        "id": 9,
+        "nombre": "cámara canon eos rebel t7",
+        "precio": 449.99,
+        "stock": 20,
+        "categoria": "fotografía",
+        "descripcion": "cámara canon eos rebel t7 con lente 18-55mm",
+        "marca": "canon",
+        "disponibilidad": true,
+        "imagen": "https://www.audiovision.com.pe/wp-content/uploads/2022/11/CANON-EOS-REBEL-T7-EF-S-18-55MM-2-1.png"
+    },
+    {
+        "id": 10,
+        "nombre": "monitor dell ultrasharp",
+        "precio": 299.99,
+        "stock": 25,
+        "categoria": "computación",
+        "descripcion": "monitor dell ultrasharp de 27 pulgadas con resolución 4k",
+        "marca": "dell",
+        "disponibilidad": true,
+        "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fmedia-prod-use-1.mirakl.net%2FSOURCE%2F0200ecebb7304767967e9d6d1988ebe7?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=1ca32b140f0facc8c6abe6ebd31390e2"
+    },
+    {
+        "id": 11,
+        "nombre": "teclado mecánico logitech g pro",
+        "precio": 129.99,
+        "stock": 30,
+        "categoria": "accesorios",
+        "descripcion": "teclado mecánico logitech g pro para gaming",
+        "marca": "logitech",
+        "disponibilidad": true,
+        "imagen": "https://dojiw2m9tvv09.cloudfront.net/48881/product/pro-clicky-hero6074.png"
+    },
+    {
+        "id": 12,
+        "nombre": "ratón inalámbrico logitech mx master 3",
+        "precio": 99.99,
+        "stock": 50,
+        "categoria": "accesorios",
+        "descripcion": "ratón inalámbrico logitech mx master 3",
+        "marca": "logitech",
+        "disponibilidad": true,
+        "imagen": "https://promart.vteximg.com.br/arquivos/ids/7361295-1000-1000/image-0.jpg?v=638258438297970000"
+    },
+    {
+        "id": 13,
+        "nombre": "impresora hp envy 6055",
+        "precio": 149.99,
+        "stock": 15,
+        "categoria": "oficina",
+        "descripcion": "impresora multifuncional hp envy 6055",
+        "marca": "hp",
+        "disponibilidad": true,
+        "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/15456775-1000-1000/image-8af018a93ba4401c94bb39aea32a2f3e.jpg?v=638285249249800000"
+    },
+    {
+        "id": 14,
+        "nombre": "disco duro externo wd my passport",
+        "precio": 89.99,
+        "stock": 60,
+        "categoria": "almacenamiento",
+        "descripcion": "disco duro externo wd my passport de 2tb",
+        "marca": "western digital",
+        "disponibilidad": true,
+        "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/15351227-1000-1000/image-6910e55a6d66493f84798691b0258134.jpg?v=638282363661700000"
+    },
+    {
+        "id": 15,
+        "nombre": "router wifi netgear nighthawk",
+        "precio": 199.99,
+        "stock": 25,
+        "categoria": "redes",
+        "descripcion": "router wifi netgear nighthawk ax6",
+        "marca": "netgear",
+        "disponibilidad": true,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_731786-MPE72439250864_102023-O.webp"
+    },
+    {
+        "id": 16,
+        "nombre": "refrigerador samsung french door",
+        "precio": 1599.99,
+        "stock": 10,
+        "categoria": "electrodomésticos",
+        "descripcion": "refrigerador samsung french door de 28 pies cúbicos",
+        "marca": "samsung",
+        "disponibilidad": true,
+        "imagen": "https://dcmallio.vtexassets.com/arquivos/ids/325965066-800-800?v=638108771898030000&width=800&height=800&aspect=true"
+    },
+    {
+        "id": 17,
+        "nombre": "lavadora lg turboshot",
+        "precio": 899.99,
+        "stock": 15,
+        "categoria": "electrodomésticos",
+        "descripcion": "lavadora lg turboshot de carga frontal",
+        "marca": "lg",
+        "disponibilidad": true,
+        "imagen": "https://www.lg.com/content/dam/channel/wcms/cl/images/lavadoras/wt13vs6h_asspecl_escl_cl_c/gallery/medium_01.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "cocina whirlpool de 30 pulgadas",
+        "precio": 799.99,
+        "stock": 10,
+        "categoria": "electrodomésticos",
+        "descripcion": "cocina whirlpool de 30 pulgadas con horno eléctrico",
+        "marca": "whirlpool",
+        "disponibilidad": true,
+        "imagen": "https://www.prado.com.sv/media/catalog/product/1/6/160809_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+    },
+    {
+        "id": 19,
+        "nombre": "aspiradora dyson v11",
+        "precio": 599.99,
+        "stock": 20,
+        "categoria": "limpieza",
+        "descripcion": "aspiradora inalámbrica dyson v11",
+        "marca": "dyson",
+        "disponibilidad": true,
+        "imagen": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_123299008_3633724_1?wid=800&hei=800&qlt=70"
+    },
+    {
+        "id": 20,
+        "nombre": "ventilador de torre honeywell",
+        "precio": 89.99,
+        "stock": 40,
+        "categoria": "climatización",
+        "descripcion": "ventilador de torre honeywell quietset",
+        "marca": "honeywell",
+        "disponibilidad": true,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_764985-MPE73149589555_112023-O.webp"
+    }
+  
+  
+    ]
+  }
+  
